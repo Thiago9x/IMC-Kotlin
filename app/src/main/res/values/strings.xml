@@ -1,10 +1,15 @@
 <resources>
     <string name="app_name">Health Calculation</string>
 
-    <string name="app_title">Health<br/>Calc</string>
+    <string name="app_title">Health\nCalc</string>
     <string name="login_activity_login">Login</string>
     <string name="login_activity_subtitle">Do the login to continue</string>
     <string name="login_activity_email">Email</string>
     <string name="login_activity_password">Password</string>
     <string name="login_activity_enter">Enter</string>
+    <string name="login_activity_lembrar_me">Lembrar-me</string>
+    <string name="login_activity_esqueci_a_senha">Esqueci a senha</string>
+    <string name="login_activity_n_o_tem_uma_conta">Não tem uma conta?</string>
+    <string name="login_activity_criar_uma_conta_agora">Criar uma conta agora</string>
+    <string name="login_activity_desenvolvido_por_thiago_m_trentin">Desenvolvido por Thiago M. Trentin</string>
 </resources>

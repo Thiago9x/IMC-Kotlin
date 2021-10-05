@@ -10,7 +10,7 @@
        android:id="@+id/rl_header"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:background="#660777"
+       android:background="@color/primary_dark"
        android:paddingTop="16dp"
        android:paddingStart="32dp"
        android:paddingEnd="32dp"
@@ -52,7 +52,7 @@
     <ImageView
         android:id="@+id/wave_bottom"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="90dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
@@ -119,11 +119,71 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/login_activity_enter"/>
+                    android:text="@string/login_activity_enter"
+                    android:padding="15dp"
+                    android:layout_marginTop="12dp" />
 
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_activity_lembrar_me"
+                    android:layout_gravity="end" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_activity_esqueci_a_senha"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:textAllCaps="false"
+                    android:layout_gravity="end"
+                    android:padding="0dp"
+                    android:layout_marginTop="-20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:padding="0dp"
+                        android:layout_marginTop="-20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/login_activity_n_o_tem_uma_conta"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/login_activity_criar_uma_conta_agora"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
+                            android:textAllCaps="false"
+                            android:layout_marginStart="8dp"
+                            android:padding="0dp"/>
+                    </LinearLayout>
+
+                <!--<RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Java"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PHP" />
+                </RadioGroup>-->
         </LinearLayout>
     </ScrollView>
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_activity_desenvolvido_por_thiago_m_trentin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/white"/>
 
 
 </RelativeLayout>
