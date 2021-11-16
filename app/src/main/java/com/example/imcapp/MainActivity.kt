@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         //Criar um listener/ouvinte
         botaoNovoUsuario.setOnClickListener {
         //criar uma intent
-            val x = "10"
+           // val x = "10"
             val abrirCadastro = Intent(this, Cadastro::class.java)
             startActivity(abrirCadastro)
         }
