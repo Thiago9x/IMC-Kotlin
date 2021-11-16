@@ -32,6 +32,7 @@ class Cadastro : AppCompatActivity() {
         // criar um editor para o arquivo
         val editor = dados.edit()
         editor.putString("email",editEmail.text.toString())
+        editor.apply()
         return true
     }
 }
