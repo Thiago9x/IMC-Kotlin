@@ -24,4 +24,12 @@
     <string name="genero">Genero</string>
     <string name="feminino">Feminino</string>
     <string name="masculino">Masculino</string>
+    <string name="vamos_pesar">Vamos nos pesar?</string>
+    <string name="texto_apos_info">Mantenha seu peso sempre autalizado, assim você poderá acompanhar sua evolução</string>
+    <string name="data_da_pesagem">Data da pesagem:</string>
+    <string name="data_pesagem">20/11/2021</string>
+    <string name="nivel_atividade">Nível de atividade:</string>
+    <string name="novo_peso">Seu novo peso:</string>
+    <string name="exemplo_peso">68 Kg</string>
+    <string name="registrar_peso">Registrar peso</string>
 </resources>
