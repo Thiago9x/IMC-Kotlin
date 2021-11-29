@@ -78,7 +78,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="@color/white"
-                    android:inputType="numberPassword"/>
+                    android:inputType="numberPassword"
+                    android:id="@+id/edit_novo_senha"/>
             </com.google.android.material.textfield.TextInputLayout>
             <TextView
                 android:layout_width="match_parent"
@@ -99,7 +100,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="@color/white"
-                    android:inputType="textCapWords"/>
+                    android:inputType="textCapWords"
+                    android:id="@+id/edit_novo_nome"/>
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -110,7 +112,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="@color/white"
-                    android:inputType="textCapWords"/>
+                    android:inputType="textCapWords"
+                    android:id="@+id/edit_novo_profissao"/>
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -121,7 +124,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="@color/white"
-                    android:inputType="number"/>
+                    android:inputType="number"
+                    android:id="@+id/edit_novo_altura"/>
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -132,7 +136,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="@color/white"
-                    android:inputType="date"/>
+                    android:inputType="date"
+                    android:id="@+id/edit_novo_nascimento"/>
             </com.google.android.material.textfield.TextInputLayout>
             <TextView
                 android:layout_width="wrap_content"
@@ -148,11 +153,13 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/feminino"/>
+                    android:text="@string/feminino"
+                    android:id="@+id/radio_novo_feminino"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/masculino"/>
+                    android:text="@string/masculino"
+                    android:id="@+id/radio_novo_masculino"/>
             </RadioGroup>
             <View
                 android:layout_width="match_parent"

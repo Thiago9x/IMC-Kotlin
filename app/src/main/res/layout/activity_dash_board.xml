@@ -32,7 +32,8 @@
             android:layout_gravity="center"
             android:text="Krusty"
             android:textColor="@color/white"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:id="@+id/dash_nome"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -40,7 +41,8 @@
             android:layout_gravity="center"
             android:text="Palhaço"
             android:textColor="@color/white"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:id="@+id/dash_profissao"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,7 +56,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="31.9"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:id="@+id/dash_imc"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -63,7 +66,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="1971"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:id="@+id/dash_NCD"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -72,7 +76,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="50"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:id="@+id/dash_idade"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -81,7 +86,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="105"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:id="@+id/dash_peso"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -90,7 +96,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="1,77"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:id="@+id/dash_altura"/>
 
         </LinearLayout>
 

@@ -97,7 +97,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/email_24"
-                    android:drawablePadding="8dp"/>
+                    android:drawablePadding="8dp"
+                    android:id="@+id/edit_login_email"/>
             </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -113,7 +114,8 @@
                     android:layout_height="wrap_content"
                     android:inputType="numberPassword"
                     android:drawableStart="@drawable/lock_24"
-                    android:drawablePadding="8dp"/>
+                    android:drawablePadding="8dp"
+                    android:id="@+id/edit_login_senha"/>
             </com.google.android.material.textfield.TextInputLayout>
 
                 <Button
