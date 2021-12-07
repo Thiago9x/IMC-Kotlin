@@ -167,7 +167,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="16dp"
-            android:layout_marginStart="16dp">
+            android:layout_marginStart="16dp"
+            android:id="@+id/card_pesar_agora">
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -181,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/tv_titulo_pesar"
                     android:layout_toEndOf="@+id/iv_pesar"
-                    android:text="Pesar agora"
+                    android:text="@string/pesar_agora"
                     android:textSize="32sp"
                     android:layout_marginStart="12dp"
                     android:textStyle="bold"/>

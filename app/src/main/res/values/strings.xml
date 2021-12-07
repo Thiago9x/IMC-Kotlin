@@ -32,4 +32,13 @@
     <string name="novo_peso">Seu novo peso:</string>
     <string name="exemplo_peso">68 Kg</string>
     <string name="registrar_peso">Registrar peso</string>
+    <string name="pesar_agora">Pesar agora</string>
+
+    <string-array name="niveis">
+        <item>Atividade Leve</item>
+        <item>Atividade Moderada</item>
+        <item>Atividade Intensa</item>
+    </string-array>
+
+
 </resources>

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.Toast
@@ -22,6 +23,7 @@ class Cadastro : AppCompatActivity() {
     lateinit var radioFeminino : RadioButton
     lateinit var radioMasculino : RadioButton
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro)
@@ -34,11 +36,13 @@ class Cadastro : AppCompatActivity() {
         editDataNascimento = findViewById(R.id.edit_novo_nascimento)
         radioFeminino = findViewById(R.id.radio_novo_feminino)
         radioMasculino = findViewById(R.id.radio_novo_masculino)
+
 //        supportActionBar!!.hide()
         //abrir um calendario ao clicar no campo de nascimento
         editDataNascimento.setOnClickListener{
             abrirCalendario()
         }
+
 
     }
 

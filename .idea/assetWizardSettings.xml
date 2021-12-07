@@ -28,8 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_arrow_drop_down_24" />
-                            <entry key="sourceFile" value="C:\Users\21193430\AndroidStudioProjects\IMC-2\IMC-Project" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_pilates_amico" />
+                            <entry key="sourceFile" value="Z:\Pilates-amico.svg" />
                           </map>
                         </option>
                       </PersistentState>
